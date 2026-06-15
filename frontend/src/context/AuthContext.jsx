@@ -2,6 +2,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import axios from 'axios';
 
 const AuthContext = createContext(null);
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser]       = useState(null);
@@ -22,7 +23,7 @@ export const AuthProvider = ({ children }) => {
     const verifyToken = async () => {
       if (!token) { setLoading(false); return; }
       try {
-        const res = await axios.get('http://localhost:5000/api/auth/me');
+        const res = await axios.get(`${API_URL}/auth/me`);
         setUser(res.data.user);
       } catch {
         // Token expired or invalid — clear it
@@ -37,7 +38,7 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   const login = async (email, password) => {
-    const res = await axios.post('http://localhost:5000/api/auth/login', { email, password });
+    const res = await axios.post(`${API_URL}/auth/login`, { email, password });
     const { token: newToken, user: userData, message } = res.data;
     localStorage.setItem('ks_token', newToken);
     axios.defaults.headers.common['Authorization'] = `Bearer ${newToken}`;
@@ -47,7 +48,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   const register = async (name, email, password, state) => {
-    const res = await axios.post('http://localhost:5000/api/auth/register', { name, email, password, state });
+    const res = await axios.post(`${API_URL}/auth/register`, { name, email, password, state });
     const { token: newToken, user: userData, message } = res.data;
     localStorage.setItem('ks_token', newToken);
     axios.defaults.headers.common['Authorization'] = `Bearer ${newToken}`;

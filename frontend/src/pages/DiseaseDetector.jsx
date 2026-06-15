@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import '../styles/DiseaseDetector.css';
 
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+
 const DiseaseDetector = ({ t, language }) => {
   const [selectedSymptoms, setSelectedSymptoms] = useState([]);
   const [userText, setUserText] = useState('');
@@ -52,7 +54,7 @@ const DiseaseDetector = ({ t, language }) => {
         }
       });
 
-      const response = await axios.post('http://localhost:5000/api/disease/predict', {
+      const response = await axios.post(`${API_URL}/disease/predict`, {
         symptoms: symptomsToMatch,
         userText: userText
       });
