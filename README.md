@@ -10,20 +10,22 @@ A web application that helps farmers make crop and fertilizer decisions using si
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
-![Home Page](screenshots/home.png)
+### 🏠 Main Interface (Home Page)
+<p align="center">
+  <img src="screenshots/home.png" width="100%" alt="Home Page" />
+</p>
 
-### 📊 Soil Report Advisor
-![Soil Report Advisor](screenshots/soil_report.png)
+### 📊 Farming Advisors
+<p align="center">
+  <img src="screenshots/soil_report.png" width="49%" alt="Soil Report Advisor" />
+  <img src="screenshots/questionnaire.png" width="49%" alt="Questionnaire Advisor" />
+</p>
 
-### ❓ Questionnaire Advisor
-![Questionnaire Advisor](screenshots/questionnaire.png)
-
-### 🔬 Soil Testing Labs
-![Soil Testing Labs](screenshots/labs.png)
-
-### 🌾 Government Schemes
-![Government Schemes](screenshots/schemes.png)
+### 🔬 Support Services
+<p align="center">
+  <img src="screenshots/labs.png" width="49%" alt="Soil Testing Labs" />
+  <img src="screenshots/schemes.png" width="49%" alt="Government Schemes" />
+</p>
 
 ---
 
