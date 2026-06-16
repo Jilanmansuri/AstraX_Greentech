@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import axios from 'axios';
+import api from '../services/api';
 import './Weather.css';
 
 const POPULAR_CITIES = ['Mumbai', 'Delhi', 'Pune', 'Ahmedabad', 'Jaipur', 'Lucknow', 'Bhopal', 'Nagpur'];
@@ -34,7 +34,7 @@ export default function Weather() {
     setData(null);
 
     try {
-      const res = await axios.get(`/api/weather?city=${encodeURIComponent(target)}`);
+      const res = await api.get(`/weather?city=${encodeURIComponent(target)}`);
       setData(res.data);
       setCity(target);
     } catch (err) {
