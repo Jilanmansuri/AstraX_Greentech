@@ -6,6 +6,8 @@ A web application that helps farmers make crop and fertilizer decisions using si
 - **Frontend App (Vercel):** [https://krishi-sarthi-ai.vercel.app](https://krishi-sarthi-ai.vercel.app)
 - **Backend API (Render):** [https://astrax-greentech.onrender.com](https://astrax-greentech.onrender.com)
 
+---
+
 ## 📸 Screenshots
 
 ### 🏠 Home Page
@@ -22,6 +24,8 @@ A web application that helps farmers make crop and fertilizer decisions using si
 
 ### 🌾 Government Schemes
 ![Government Schemes](screenshots/schemes.png)
+
+---
 
 ## 🌾 Overview
 
