@@ -2,6 +2,17 @@
 
 A web application that helps farmers make crop and fertilizer decisions using simple inputs, even without soil reports.
 
+## ❓ Problem Statement
+
+In India, a majority of small and marginal farmers face low crop yields and soil degradation due to:
+- **Lack of Soil Testing Access:** Over 60% of smallholder farmers do not have access to timely soil testing or struggle to interpret complex laboratory soil reports.
+- **Imbalanced Fertilizer Usage:** Farmers often apply incorrect ratios of fertilizers, leading to increased cultivation costs, reduced soil health, and lower crop yields.
+- **Information Fragmentation:** Access to personalized crop recommendations, localized soil testing labs, and beneficial government agricultural schemes remains highly fragmented.
+
+**KrishiSaarthi AI** bridges this gap by offering an intelligent, user-friendly farming advisor. It provides precise, cost-optimized crop and fertilizer recommendations based on either structured soil reports or a simple questionnaire for farmers without testing facilities, along with localized lab discovery and scheme awareness.
+
+---
+
 ## 🔗 Live Links
 - **Frontend App (Vercel):** [https://krishi-sarthi-ai.vercel.app](https://krishi-sarthi-ai.vercel.app)
 - **Backend API (Render):** [https://astrax-greentech.onrender.com](https://astrax-greentech.onrender.com)
