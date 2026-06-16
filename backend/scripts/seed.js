@@ -7,7 +7,7 @@ const schemesData = require('../data/schemes');
 const soilLabsData = require('../data/soilLabs');
 
 // Default to krishiai as per recent user request
-const MONGO_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/krishiai';
+const MONGO_URI = process.env.MONGODB_URI;
 
 const seedDB = async () => {
   try {
