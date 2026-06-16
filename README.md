@@ -2,6 +2,10 @@
 
 A web application that helps farmers make crop and fertilizer decisions using simple inputs, even without soil reports.
 
+## 🔗 Live Links
+- **Frontend App (Vercel):** [https://krishisarthi-ai.vercel.app](https://krishisarthi-ai.vercel.app)
+- **Backend API (Render):** [https://astrax-greentech.onrender.com](https://astrax-greentech.onrender.com)
+
 ## 🌾 Overview
 
 KrishiSaarthi AI is a hackathon-ready farming recommendation system that provides:
@@ -221,14 +225,16 @@ FRONTEND_URL=http://localhost:3000
 
 ## 🚀 Deployment
 
-### Backend (Heroku)
-```bash
-heroku create your-app-name
-git push heroku main
-```
+The project is actively deployed and accessible at:
+- **Frontend App (Vercel):** [https://krishisarthi-ai.vercel.app](https://krishisarthi-ai.vercel.app)
+- **Backend API (Render):** [https://astrax-greentech.onrender.com](https://astrax-greentech.onrender.com)
+
+### Backend (Render)
+The backend runs on Render with automatic deployments enabled for pushes to the `main` branch.
 
 ### Frontend (Vercel)
 ```bash
+cd frontend
 npm run build
 vercel --prod
 ```
