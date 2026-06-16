@@ -6,6 +6,23 @@ A web application that helps farmers make crop and fertilizer decisions using si
 - **Frontend App (Vercel):** [https://krishi-sarthi-ai.vercel.app](https://krishi-sarthi-ai.vercel.app)
 - **Backend API (Render):** [https://astrax-greentech.onrender.com](https://astrax-greentech.onrender.com)
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](screenshots/home.png)
+
+### 📊 Soil Report Advisor
+![Soil Report Advisor](screenshots/soil_report.png)
+
+### ❓ Questionnaire Advisor
+![Questionnaire Advisor](screenshots/questionnaire.png)
+
+### 🔬 Soil Testing Labs
+![Soil Testing Labs](screenshots/labs.png)
+
+### 🌾 Government Schemes
+![Government Schemes](screenshots/schemes.png)
+
 ## 🌾 Overview
 
 KrishiSaarthi AI is a hackathon-ready farming recommendation system that provides:
