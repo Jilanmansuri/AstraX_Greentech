@@ -3,7 +3,7 @@
 A web application that helps farmers make crop and fertilizer decisions using simple inputs, even without soil reports.
 
 ## 🔗 Live Links
-- **Frontend App (Vercel):** [https://krishisarthi-ai.vercel.app](https://krishisarthi-ai.vercel.app)
+- **Frontend App (Vercel):** [https://krishi-sarthi-ai.vercel.app](https://krishi-sarthi-ai.vercel.app)
 - **Backend API (Render):** [https://astrax-greentech.onrender.com](https://astrax-greentech.onrender.com)
 
 ## 🌾 Overview
@@ -226,7 +226,7 @@ FRONTEND_URL=http://localhost:3000
 ## 🚀 Deployment
 
 The project is actively deployed and accessible at:
-- **Frontend App (Vercel):** [https://krishisarthi-ai.vercel.app](https://krishisarthi-ai.vercel.app)
+- **Frontend App (Vercel):** [https://krishi-sarthi-ai.vercel.app](https://krishi-sarthi-ai.vercel.app)
 - **Backend API (Render):** [https://astrax-greentech.onrender.com](https://astrax-greentech.onrender.com)
 
 ### Backend (Render)
